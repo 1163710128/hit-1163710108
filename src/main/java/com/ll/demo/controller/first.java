@@ -20,7 +20,7 @@ public class first {
     @ResponseBody
     @RequestMapping("/hello")
     String Hello(){
-        return "Hello World";
+        return "Hello World!";
     }
 
     @RequestMapping("/person")
