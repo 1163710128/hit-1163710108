@@ -1,0 +1,22 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /springboot/
+logging:
+  level:
+    com.ll.demo: warn
+---
+server:
+  port: 8083
+  servlet:
+    context-path: /springboot1/
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8084
+  servlet:
+    context-path: /springboot2/
+spring:
+  profiles: prod
